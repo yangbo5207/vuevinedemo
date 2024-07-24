@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "build2": "vite build  && cp docs/index.html docs/404.html",
-    "preview": "vite preview"
+    "build2": "vite build  && cp docs/index.html docs/404.html && cp CNAME docs/CNAME",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d docs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0-alpha.17",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
+    "gh-pages": "^6.1.1",
     "typescript": "^5.2.2",
     "vite": "^5.3.1",
     "vue-tsc": "^2.0.21",
