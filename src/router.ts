@@ -5,23 +5,21 @@ import Dashboard from './pages/dashboard/index.vine'
 import Component from './pages/component/index.vine'
 import Blog from './pages/blog/index.vine'
 
-let base = '/vuevinedemo'
-
 const routers = [
   {
-    path: base,
+    path: '/',
     component: HomeView
   },
   {
-    path: `${base}/tutorial`,
+    path: '/tutorial',
     component: Dashboard
   },
   {
-    path: `${base}/component`,
+    path: '/component',
     component: Component
   },
   {
-    path: `${base}/blog`,
+    path: '/blog',
     component: Blog
   }
 ]
