@@ -7,19 +7,19 @@ import Blog from './pages/blog/index.vine'
 
 const routers = [
   {
-    path: '/',
+    path: './',
     component: HomeView
   },
   {
-    path: '/tutorial',
+    path: './tutorial',
     component: Dashboard
   },
   {
-    path: '/component',
+    path: './component',
     component: Component
   },
   {
-    path: '/blog',
+    path: './blog',
     component: Blog
   }
 ]
