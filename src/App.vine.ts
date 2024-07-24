@@ -7,6 +7,8 @@ function App() {
     <main class="pt-16 m-1 m-2.5">
       <RouterView />
       <div class="m-1 text-2xl"></div>
+      <div>
+      </div>
     </main>
   `
 }

@@ -8,4 +8,7 @@ export default defineConfig({
     VineVitePlugin(),
     tailwindcss()
   ],
+  build: {
+    outDir: 'docs'
+  }
 })
